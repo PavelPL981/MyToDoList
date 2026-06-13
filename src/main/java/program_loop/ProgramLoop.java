@@ -6,11 +6,6 @@ public class ProgramLoop {
 
     public void run() {
         while(isContunier) {
-
-
-            isContunier = !isContunier;
-
-
         }
     }
 }
