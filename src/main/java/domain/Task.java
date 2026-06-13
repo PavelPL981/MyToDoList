@@ -4,12 +4,12 @@ public class Task {
 
     private String title;
     private AuthorInfo authorInfo;
-    private Status status;
+    private TaskStatus taskStatus;
 
-    public Task(String title, AuthorInfo authorInfo, Status status) {
+    public Task(String title, AuthorInfo authorInfo, TaskStatus taskStatus) {
         this.title = title;
         this.authorInfo = authorInfo;
-        this.status = status;
+        this.taskStatus = taskStatus;
     }
 
     public String getTitle() {
@@ -28,11 +28,11 @@ public class Task {
         this.authorInfo = authorInfo;
     }
 
-    public Status getStatus() {
-        return status;
+    public TaskStatus getStatus() {
+        return taskStatus;
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
+    public void setStatus(TaskStatus taskStatus) {
+        this.taskStatus = taskStatus;
     }
 }

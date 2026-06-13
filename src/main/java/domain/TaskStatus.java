@@ -1,6 +1,6 @@
 package domain;
 
-public enum Status {
+public enum TaskStatus {
 
     OPEN,
     IN_PROCESS,
